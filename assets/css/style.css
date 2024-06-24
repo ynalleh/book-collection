@@ -1,0 +1,71 @@
+/*CSS*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container{
+    width: 100w;
+    height: 100vh;
+    /*background: #E6E6FA; */
+    
+    background: rgba(255, 255, 255, 0.429); /* Cor com transparência para permitir que a imagem de fundo seja visível */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 300px;
+    background: #ffffff;
+    font-family: Lato;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid #a353ff;
+}
+
+.form-box .form-input{
+    border: none;
+    background: #eee;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.form-box .form-btn{
+    border: none;
+    background: #a353ff;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
+.form-btn:hover {
+    background-color: #b97cff;
+}
+
+@media screen and(max-width: 340px){
+    .form-box{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+
+

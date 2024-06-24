@@ -1,0 +1,161 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    background-attachment: fixed;
+    background-image: url('https://images.unsplash.com/photo-1588581939864-064d42ace7cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-image: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2{
+    color: #000000ae;
+    display: flex;
+    justify-content:left;
+    font-family: Lato ;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgb(221, 110, 255); /* Fundo preto com 70% de transparência */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f0f0f0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência sobre a imagem de fundo */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    background: #da76ff;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background: #b659d8;
+}
+
+.meus-livros {
+    padding: 110px 20px;
+    background: rgba(255, 255, 255, 0.692);
+    color: #333;
+}
+
+.meus-livros h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meus-livros form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.meus-livros form input {
+    padding: 10px;
+    font-size:14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; 
+     box-sizing: border-box;
+}
+
+.meus-livros form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #da76ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.meus-livros form button:hover {
+    background: #b659d8;
+}
+
+#livro-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#livro-tabela th, #livro-tabela td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#livro-tabela th {
+    background: #f4f4f4;
+}
+
+#livro-tabela td .btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#livro-tabela td .btn:hover {
+    background: #cc7a00;
+}

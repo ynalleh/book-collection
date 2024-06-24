@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    background-image: url('https://images.unsplash.com/photo-1588581939864-064d42ace7cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(221, 110, 255, 0.7); /* Fundo preto com 70% de transparência */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgba(221, 110, 255, 0.7);
+}
+
+a:hover {
+    color: rgb(166, 0, 255);
+}
+
+a:active {
+    color: rgb(63, 13, 98);
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f0f0f0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência sobre a imagem de fundo */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    background: #da76ff;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background: #b659d8;
+}

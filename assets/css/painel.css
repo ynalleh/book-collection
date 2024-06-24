@@ -1,0 +1,154 @@
+
+body {
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#mylibre{
+    color: #fff;
+
+
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    /*background: #E6E6FA; */
+    
+    background: rgba(255, 255, 255, 0.429); /* Cor com transparência para permitir que a imagem de fundo seja visível */
+   
+  
+}
+
+.navbar {
+    background-color:  #a353ff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left .breadcrumb {
+    font-size: 0.9em;
+}
+
+.navbar-left .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-right input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.navbar-right button {
+    background-color: #fff;
+    color: #a353ff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-right .icon-notification {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.controls label {
+    font-size: 0.9em;
+}
+
+.controls .add-book {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.controls input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.429); /* Cor com transparência para permitir que a imagem de fundo seja visível */
+   
+}
+
+input::placeholder {
+    color: white; 
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #fffdb9;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;    
+    font-size: 0.9em;
+}
+
+.icon-edit, .icon-delete {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+   
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.icon-edit::before {
+    content: "✏️"; /* This would be replaced with actual icon */
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+
+.icon-delete::before {
+    content: "🗑️"; /* This would be replaced with actual icon */
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
